@@ -91,6 +91,30 @@ header .container-fluid{
 	color:#fff;
 	background-color: rgba(11, 25, 39, 0.4);
 }
+
+#tarifas i{
+	font-size: 1.5em;
+	margin-right: 3%;
+}
+#tarifas input[type="text"]{
+	background: none;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid white;
+	color:white;
+	padding: 2%;
+	width: 80%;
+}
+
+#tarifas input[type="text"]::placeholder{
+	color:white;
+}
+
+
+#map {
+        height: 400px;
+        width: 100%;
+}
 @media (min-width: 767px){
 	.navbar-header{
 		padding-bottom: 20px;
@@ -110,5 +134,9 @@ header .container-fluid{
 @media (min-width: 1200px) {
 	#download img{
 		height: 45vh;
+	}
+
+	.padding{
+		padding: 8% 0%;
 	}
 }
