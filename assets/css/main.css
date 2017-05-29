@@ -45,6 +45,13 @@ header .container-fluid{
 	outline: none;
 }
 
+#conduce{
+	background-image: url(../img/conduce.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
 .marginR{
 	margin-right: 4%;
 }
@@ -53,7 +60,38 @@ header .container-fluid{
 	margin-left: 4%;
 }
 
-@media (max-width: 767px){
+.bg-orange{
+	background: #F7B820;
+}
+
+.font15{
+	font-size: 1.2em;
+}
+.bg-white{
+	color:#fff;
+}
+
+#download .row{
+	padding: 4em 2em;
+}
+
+
+
+.btn-warning{
+	background-color: #F7B820;
+	padding: 1em 3em;
+}
+
+.cnt-conduce{
+	padding:10em 2em;
+}
+
+.conduce-info{
+	height: 35em;
+	color:#fff;
+	background-color: rgba(11, 25, 39, 0.4);
+}
+@media (min-width: 767px){
 	.navbar-header{
 		padding-bottom: 20px;
 	}
@@ -66,5 +104,11 @@ header .container-fluid{
 
 	#register{
 		background-size: 100%!important;
+	}
+}
+
+@media (min-width: 1200px) {
+	#download img{
+		height: 45vh;
 	}
 }
