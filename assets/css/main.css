@@ -1,0 +1,70 @@
+.navbar{
+	background-color: #fff;
+	height: 15vh;
+	margin: 0;
+}
+
+header .container-fluid{
+	padding-top: 4vh;
+	width: 80%;
+}
+
+.bold{
+	font-weight: 600;
+}
+#register{
+	background-image: url(../img/taxi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -90% 92%;
+	height: 95vh;
+	color: #fff;
+}
+
+#register .cnt-info{
+	padding: 7%;
+}
+
+#register .row{
+	padding-top: 20vh;
+}
+
+.nopadding{
+	padding-right: 0;
+}
+
+.cnt-info{
+	background-color: #F7B820;
+	height: 25em;
+}
+
+.cnt-info input[type="text"]{
+	background: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+}
+
+.marginR{
+	margin-right: 4%;
+}
+
+.marginL{
+	margin-left: 4%;
+}
+
+@media (max-width: 767px){
+	.navbar-header{
+		padding-bottom: 20px;
+	}
+	.padding10 li{
+		padding: 10px 10px;
+	}
+	.navbar-default .navbar-collapse{
+		border: none;
+	}
+
+	#register{
+		background-size: 100%!important;
+	}
+}
