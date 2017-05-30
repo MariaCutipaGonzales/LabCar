@@ -1,17 +1,11 @@
-.navbar{
-	background-color: #fff;
-	height: 15vh;
-	margin: 0;
-}
-
-header .container-fluid{
-	padding-top: 4vh;
-	width: 80%;
+*{
+	font-family: 'Roboto', sans-serif;
 }
 
 .bold{
 	font-weight: 600;
 }
+
 #register{
 	background-image: url(../img/taxi.jpg);
 	background-size: cover;
@@ -25,9 +19,6 @@ header .container-fluid{
 	padding: 7%;
 }
 
-#register .row{
-	padding-top: 20vh;
-}
 
 .nopadding{
 	padding-right: 0;
@@ -75,11 +66,9 @@ header .container-fluid{
 	padding: 4em 2em;
 }
 
-
-
 .btn-warning{
 	background-color: #F7B820;
-	padding: 1em 3em;
+	padding: 1em 2em;
 }
 
 .cnt-conduce{
@@ -110,10 +99,10 @@ header .container-fluid{
 	color:white;
 }
 
-
 #map {
-    height: 400px;
+    height: 350px;
     width: 100%;
+    border:2px solid white;
 }
 
 footer{
@@ -132,37 +121,126 @@ footer .row{
 	padding: 0;
 }
 
-
-.bordeGris{
-	border-bottom: 2px solid white;
-}
-
-.social-icons{
-	display: flex;
-	align-items: flex-end;
-	height: 50vh;
-}
-
 .pad-bottom{
 	padding-bottom: 3%!important;
 }
 
 @media (min-width: 600px){
-	.navbar-header{
-		padding-bottom: 20px;
-	}
 	.padding10 li{
 		padding: 10px 10px;
 	}
 	.navbar-default .navbar-collapse{
 		border: none;
 	}
+	
+	#tarifas{
+		height: 20vh;
+	}
 
+	.btn-default{
+		margin-top: 2%;
+	}
 	#register{
 		background-size: 100%!important;
+		height: 85vh;
 	}
 	.social-icons{
 		height: 10vh;
+	}
+
+	.cnt-conduce{
+		padding: 0;
+		padding-top: 2em;
+		padding-left: 2em;
+	}
+	.cnt-conduce h2{
+		font-size: 6rem;
+	}
+
+	.cnt-conduce .font15{
+		font-size: 5rem;
+	}
+
+	.cnt-conduce button{
+		font-size: 3rem;
+	}
+	footer .container div:nth-child(1){
+	padding-top: 2%;
+	}
+
+	footer .padd10{
+		padding-top: 2%;
+	}
+	footer{
+		font-size: 2em;
+	}
+
+	.navbar-toggle{
+		display: block;
+		font-size: 5rem;
+		border:none;
+		margin-left: 5rem;
+		color: #666;
+	}
+
+	.mobile img{
+		height: 80px;
+		margin-left: 20rem;
+	}
+	header .container-fluid{
+		width: 100%;
+	}
+	.navbar{
+		background-color: #fff;
+		height: 10vh;
+		margin: 0;
+	}
+	
+	#register .cnt-info{
+		margin-top: 40%;
+		height: 60rem;
+	}
+
+	#register .cnt-info h1{
+		font-size: 10rem;
+	}
+	#register .cnt-info img{
+		margin-top: 5%;
+		height: 80px;
+	}
+	.mobile{
+		margin-top: 2%;
+	}
+
+	#download .row{
+		padding:5% 0 5% 0;
+	}
+	.celular{
+		border: 4px solid #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#tarifas {
+		height: 30vh;
+	}
+
+	#tarifas h1{
+		font-size: 6rem;
+	}
+
+	#tarifas p{
+		font-size: 2.5rem;
+	}
+
+	#tarifas .row{
+		left: 30%;
+	}
+
+	.btn-mobile{
+		margin-top: 5%;
+		font-size: 3rem;
 	}
 }
 
@@ -170,15 +248,80 @@ footer .row{
 	#download img{
 		height: 45vh;
 	}
-
 	.padding{
-		padding: 8% 0%;
+		padding-top: 8%;
+	}
+	footer .container .row{
+	padding-top: 2%;
+	}
+	#tarifas{
+		height: 70vh;
+	}
+	#tarifas .container-fluid{
+		width: 80%;
 	}
 
-	.padding10{
-		padding: 5% 0%;
+	#register .cnt-info{
+		margin-top: 25%;
+		height: 35rem;
 	}
-	footer .container div:nth-child(1){
-	padding-top: 2%;
+
+	#register .cnt-info h1{
+		font-size: 4rem;
+	}
+	#register .cnt-info img{
+		margin-top: 5%;
+		margin-left: 10px;
+		height: 30px;
+	}
+
+	#tarifas .row{
+		padding-bottom: 4%;
+	}
+	#tarifas p{
+		font-size: 2rem;
+	}
+	#tarifas .btn-mobile{
+		font-size: 1.5rem;
+	}
+
+	.cnt-conduce{
+		padding-top: 5em;
+	}
+	.cnt-conduce h2{
+		font-size: 3.2rem;
+	}
+
+	.cnt-conduce .font15{
+		font-size: 2rem;
+	}
+
+	.cnt-conduce button{
+		font-size: 1.3rem;
+	}
+
+	.social-icons{
+	display: flex;
+	align-items: flex-end;
+	height: 50vh;
+	}
+
+	footer .container-fluid{
+		width: 80%;
+	}
+	footer{
+		font-size: 1em;
+	}
+	.col-xs-push-3{
+		left: 0%!important;
+	}
+	header .container-fluid{
+		padding-top: 4vh;
+		width: 80%;
+	}
+	.navbar{
+		background-color: #fff;
+		height: 15vh;
+		margin: 0;
 	}
 }
